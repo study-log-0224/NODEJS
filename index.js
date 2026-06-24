@@ -1,6 +1,12 @@
-// index.js
-const _ = require("lodash");
+console.log("HELLO WORLD!");
 
-const arr = [1, 2, 3, 4, 5];
-const shuffled = _.shuffle(arr);
-console.log("Shuffled:", shuffled);
+//--------------------------
+// LODASH
+//--------------------------
+
+import _ from 'lodash'
+
+console.log(_);
+
+const result = _.join(['Hello','Parcel',],'|')
+console.log(result);
